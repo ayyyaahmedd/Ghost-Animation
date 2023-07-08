@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+div i{
+    font-size: 85px;
+}
+div{
+    margin-top: 15px;
+}
+.div1 i{
+    animation: change1 3s ease 0s 1 normal forwards;
+    position: absolute; 
+    color: white;
+}
+@keyframes change1{
+    0%{
+        left: 0;
+    }
+    15%{
+        color: black;
+    }
+    25%{
+        color: rgb(143, 104, 104);
+    }
+    50%{
+        color: rgb(129, 107, 91);
+    }
+    80%{
+        color: rgb(48, 48, 4);
+    }
+    99%{
+        color: black;
+    }
+    100%{
+        left: 1470px;
+    }
+}
+.div2 i{
+    animation: change2  3s ease 3s 1 reverse forwards;
+    position: absolute;
+    top:130px;
+    color: white;
+}
+@keyframes change2{
+    0%{
+        left: 0;
+    }
+    15%{
+        color: black;
+    }
+    25%{
+        color: rgb(143, 104, 104);
+    }
+    50%{
+        color: rgb(129, 107, 91);
+    }
+    80%{
+        color: rgb(48, 48, 4);
+    }
+    99%{
+        color: black;
+    }
+    100%{
+        left: 1400px;
+        color: black;
+    }
+}
+.div3 i{
+    animation: change1 3s ease 6s 1 normal forwards;
+    position: absolute;
+    top:250px;
+    color: white;
+}
+.div4 i{
+    animation: change2  3s ease 9s 1 reverse forwards;
+    position: absolute;
+    top:360px;
+    color: white;
+}
+.div5 i{
+    animation: change1 3s ease 12s 1 normal forwards;
+    position: absolute; 
+    top:480px;
+    color: white;
+}
+.div6 i{
+    animation: change2  3s ease 15s 1 reverse forwards;
+    position: absolute;
+    top:600px;
+    color: white;
+}
